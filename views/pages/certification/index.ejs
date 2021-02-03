@@ -1,0 +1,93 @@
+<% var rootPath = '../../'; %>
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <%- include(rootPath + 'partials/includes'); %>
+    </head>
+    <body>
+        <%- include(rootPath + 'partials/nav'); %>
+        <link rel="stylesheet" href="css/page.css">
+        
+        <div class="homeImg container-fluid">
+            <div class="homeDiv center container" >
+                <h1 class="titleMain cenX">Certification</h1>
+
+                <div class="row rowBackSS"></div>
+                <h3 class="subTitle" >CERTIS | LICENSES | COURSES | AWARDS</h3>
+            </div>
+
+            <div class="homeSouth">
+                <h4><a class="stealthLink subTitle pad0" href="#top">VIEW </a></h4>
+                <button class="smoothScrollBtn" type="button"><img src="/images/Down-Arrow.png" width="30"/></button>
+            </div>
+        </div>
+        
+
+        <a class="anchor" id="top"></a>
+
+        <div class="container-fluid sec">
+            <div class="container extra">
+                
+                <h1 class="titleMain cenX">Licenses and Certification</h1>
+                <br>
+                 
+                        <li><b>Machine Learning | What After College | JUL 2019 </b></li>
+                        <li><b>Machine Learning Crash Course| IIT-D | MAR 2019 </b></li>
+                        <li><b>Web Developer Bootcamp | Udemy | DEC 2019</b>
+                            </li>
+                        <li><b>Self-Driven Cars | Coursera | AUG 2020</b>
+                            </li>
+                            <li><b>Deep Learning Specialization (5 extensive courses) | Coursera | SEP 2020 </b>
+                        </li>                       
+            </div>
+            
+        </div>
+
+        <hr>
+        <br>
+        <br>
+
+       
+                
+                <h1 class="titleMain cenX">Publications</h1>
+                
+                 
+                <div class="slider">
+                    <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav"/>
+                    <input type="radio" name="slider" title="slide2" class="slider__nav"/>
+                    <input type="radio" name="slider" title="slide3" class="slider__nav"/>
+                    <input type="radio" name="slider" title="slide4" class="slider__nav"/>
+                    <div class="slider__inner">
+                      <div class="slider__contents"><i class="slider__image fa fa-newspaper-o"></i>
+                        <h2 class="slider__caption">Deep Learning based cryptanalysis of SALSA20</h2>
+                        <p class="slider__txt">TARU Journal of Computer Dynamics and Technological Advances (Accepted)
+                        </p>
+                      </div>
+                      <div class="slider__contents"><i class="slider__image fa fa-newspaper-o"></i>
+                        <h2 class="slider__caption">Accist: Automatic Traffic Accident Detection and Notification
+                            with Smartphones</h2>
+                        <p class="slider__txt">CRC Computational Intelligence (Accepted)
+                        </p>
+                      </div>
+                      <div class="slider__contents"><i class="slider__image fa fa-newspaper-o"></i>
+                        <h2 class="slider__caption">Real Time monitoring and detecting turf soil temperature using
+                            IOT devices and ARIMA </h2>
+                        <p class="slider__txt">ELSEVIER – MICROPROCESSORS AND MICROSYSTEMS (Under Review)
+                        </p>
+                      </div>
+                      <div class="slider__contents"><i class="slider__image fa fa-newspaper-o"></i>
+                        <h2 class="slider__caption">High-resolution mapping of global surface water using Landsat Data and its long-term changes in India </h2>
+                        <p class="slider__txt">Work under progress
+                        </p>
+                      </div>      
+                    </div>
+                  </div>                  
+          
+       
+
+      
+        <%- include(rootPath + 'partials/footer'); %>
+        <script type="text/javascript" src="scripts/shift.js"></script>
+        <script type="text/javascript" src="/scripts/fetchDesc.js"></script>
+    </body>
+</html>

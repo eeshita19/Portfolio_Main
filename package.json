@@ -1,0 +1,29 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "personal portfolio",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eeshita19/portfolio.git"
+  },
+  "author": "Eeshita Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.7.4",
+    "express": "^4.17.1",
+    "jsdom": "^11.12.0",
+    "nodemailer": "^4.6.4",
+    "nodemon": "^1.19.4",
+    "package.json": "^2.0.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  },
+  "bugs": {
+    "url": "https://github.com/eeshita19/portfolio/issues"
+  },
+  "homepage": "https://github.com/eeshita19/portfolio#readme"
+}

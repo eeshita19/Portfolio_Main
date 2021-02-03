@@ -1,0 +1,153 @@
+<% var rootPath = '../../'; %>
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <%- include(rootPath + 'partials/includes'); %>
+    </head>
+    <body>
+        <%- include(rootPath + 'partials/nav'); %>
+        <link rel="stylesheet" href="css/page.css">
+
+        <div class="homeImg container-fluid">
+            <div class="homeDiv center container">
+                <h1 class="titleMain cenX">CODE REPOSITORY</h1>
+
+                <div class="row rowBackSS"></div>
+                <h3 class="subTitle" id="here">Python | C++ | Deep Learning | Web Design</h3>
+            </div>
+
+            <div class="homeSouth">
+                <h4><a class="stealthLink subTitle pad0" href="#">VIEW PROJECTS</a></h4>
+                <button class="smoothScrollBtn" type="button"><img src="/images/Down-Arrow.png" width="30"/></button>
+            </div>
+        </div>
+
+        <a class="anchor" id="top"></a>
+
+        <div class="container-fluid sec temp">
+            <div class="container">
+
+                <div class="borderProj">
+                    <a href="https://sentiment-analysis-country.herokuapp.com/" class="noColor"  target="_blank">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-12">
+                                <span class="helper"></span><img src="/images/software/tweet.png" class="projImg"></img>
+                            </div>
+                            <div class="projText col-lg-8 col-md-12">
+                                <h3 class="regTitle">Country sentiment analysis of Twitter Accounts  | Python</h3>
+                                <p class="subP pad0 italic">The project takes in a twitter handle and gives the sentiment polarity of various countries for the handle.
+                                    <br>
+                                    <br>
+                                   <i> Source code: https://github.com/eeshita19/twitter-sentiment-analysis </i>
+                                </p>
+                            
+                                 <p class="subP desc"></p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="borderProj">
+                    <a href="https://github.com/eeshita19/LetsShop-" class="noColor"  target="_blank">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-12">
+                                <span class="helper"></span><img src="/images/software/letshop.png" class="projImg"></img>
+                            </div>
+                            <div class="projText col-lg-8 col-md-12">
+                                <h3 class="regTitle">Lets-Shop  | MERN</h3>
+                                <p class="subP pad0 italic">This project was designed to help the community during COVID, a Website to reduce queues outside shops during COVID-19 by which users can add themselves virtually in queues of local
+                                    shops. 
+                                    
+                                </p>
+                            
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="borderProj">
+                    <a href="https://github.com/eeshita19/cashflow-pred" class="noColor"  target="_blank">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-12">
+                                <span class="helper"></span><img src="/images/software/memesent.png" class="projImg"></img>
+                            </div>
+                            <div class="projText col-lg-8 col-md-12">
+                                <h3 class="regTitle">Meme Sentiment analysis | Python </h3>
+                                <p class="subP desc"> The following projects involves text extraction from images and text is analysed for the sentiments (positive , negative and neutral ). N grams and CV2 has been used for the project.</p>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="borderProj">
+                    <a href="https://github.com/eeshita19/Meme-sentiment-analysis" class="noColor"  target="_blank">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-12">
+                                <span class="helper"></span><img src="/images/software/cashflow.png" class="projImg"></img>
+                            </div>
+                            <div class="projText col-lg-8 col-md-12">
+                                <h3 class="regTitle">Cashflow prediction | ARIMA </h3>
+                                <p class="subP desc">  Time series prediction using to predict future cashflow from the details of bank account. It was a real dataset of 50+ MSMEs. </p>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="borderProj">
+                    <a href="https://github.com/eeshita19/movie-booking-system" class="noColor"  target="_blank">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-12">
+                                <span class="helper"></span><img src="/images/software/moviebook.png" class="projImg"></img>
+                            </div>
+                            <div class="projText col-lg-8 col-md-12">
+                                <h3 class="regTitle">Movie Booking System | C++ </h3>
+                                <p class="subP desc"> This database system is capable of storing ,deleting and searching movie names . Also it can book a seat or search a seat for a particular movie with calculating the cost of the booked seats. </p>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+               
+
+               
+
+            </div>
+        </div>
+
+      
+
+        <br>
+
+    
+
+        <div class="container-fluid btnLinks extPad">
+            <div class="container ">
+                <div class="row justify-content-center">
+                    <div class="col-md-4 bot">
+                        <div class="leftCenter">
+                            <h3 class="sub2">FOUND A BUG?</h3>
+                            <p class="subText">Let me know</p>
+                            <a class="btn btn-success btn-lg w100" href="https://github.com/eeshita19" role="button">Github</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 bot">
+                        <div class="leftCenter">
+                            <h3 class="sub2">CONTRIBUTE</h3>
+                            <p class="subText">Take part in the project</p>
+                            <a class="btn btn-secondary btn-lg w100" href="#" role="button">Contact Me</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <%- include(rootPath + 'partials/footer'); %>
+        <script type="text/javascript" src="scripts/shift.js"></script>
+        <script type="text/javascript" src="/scripts/fetchDesc.js"></script>
+    </body>
+</html>
