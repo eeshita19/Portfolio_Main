@@ -4,7 +4,8 @@
   "description": "personal portfolio",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,9 @@
     "package.json": "^2.0.1",
     "request": "^2.88.2",
     "request-promise": "^4.2.6"
+  },
+  "engines": {
+    "node": "12.18.2"
   },
   "bugs": {
     "url": "https://github.com/eeshita19/portfolio/issues"

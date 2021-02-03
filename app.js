@@ -19,8 +19,9 @@ app.set('view engine', 'ejs');
 app.use(express.static(__dirname + '/static'));
 app.set('trust proxy', true);
 
+const port = process.env.PORT || '8080';
 app.listen(8080, function () {
-    console.log('Example app listening on port 8080!');
+    console.log('App listening on port !');
 });
 
 
