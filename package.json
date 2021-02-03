@@ -4,7 +4,8 @@
   "description": "personal portfolio",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "start": "app.js"
   },
   "repository": {
     "type": "git",
