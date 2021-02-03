@@ -20,7 +20,7 @@ app.use(express.static(__dirname + '/static'));
 app.set('trust proxy', true);
 
 const port = process.env.PORT || '8080';
-app.listen(8080, function () {
+app.listen(port, function () {
     console.log('App listening on port !');
 });
 
