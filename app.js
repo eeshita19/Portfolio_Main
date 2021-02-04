@@ -35,20 +35,3 @@ app.get(/^(?!\/api\/)/, (req, res) => {
     res.render(pathname, purl.query);
 });
 
-app.get('/api/fetchDesc/:dir*', (req, res) => {
-    let file = 'views/pages/' + req.params.dir + req.params[0] + '/index.ejs';
-    fs.readFile(file, 'utf8', (err, data) => {
-        if (err) {
-            res.status(400).send(`Error: ${err}`);
-        }
-        else {
-            const dom = new JSDOM(data);
-            let desc = dom.window.document.querySelector("#desc").innerHTML;
-            let len = 300;
-            if (desc.length > len) {
-                desc = desc.substring(0, len) + " ..";
-            }
-            res.status(200).send(desc);
-        }
-    });
-});

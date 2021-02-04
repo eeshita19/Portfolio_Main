@@ -13,6 +13,7 @@ $(window).resize(titleShift);
 
 function titleShift() {
     if($(window).width() < 500) {
-        $(".homeDiv .subTitle").html("JAVA | C | ARDUINO | ASSEMBLY | WEB");
+        
+        $(".homeDiv .subTitle").html("INTERNSHIP | LEARNING | EXPOSURE | PRACTICE");
     }
 }
