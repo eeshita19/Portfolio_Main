@@ -334,10 +334,11 @@ body .scrollN, body .scrollN:hover {
       color: #2196F3;
 }
 .slider__caption {
-  font-weight: 400;
+  font-weight: 50%;
   margin: 1rem 1rem 1rem;
   text-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
+  font-size: x-large;
 }
 .slider__txt {
   color: #999;
